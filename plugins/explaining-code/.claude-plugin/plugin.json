@@ -1,0 +1,11 @@
+{
+  "name": "explaining-code",
+  "version": "1.0.0",
+  "description": "Explains code with diagrams and analogies",
+  "author": {
+    "name": "Toby",
+    "email": "toby@example.com"
+  },
+  "license": "MIT",
+  "keywords": ["explain", "diagrams", "learning", "documentation", "teaching"]
+}

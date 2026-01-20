@@ -1,0 +1,11 @@
+{
+  "name": "hetzner-advisor",
+  "version": "1.0.0",
+  "description": "Recommends optimal Hetzner servers based on requirements",
+  "author": {
+    "name": "Toby",
+    "email": "toby@example.com"
+  },
+  "license": "MIT",
+  "keywords": ["hetzner", "servers", "infrastructure", "cloud", "dedicated", "hosting"]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "team-marketplace",
+  "owner": {
+    "name": "Toby",
+    "email": "toby@example.com"
+  },
+  "metadata": {
+    "description": "Team plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "code-reviewer",
+      "description": "Reviews code for quality, security, and maintainability",
+      "version": "1.0.0",
+      "source": "./plugins/code-reviewer",
+      "category": "code-quality",
+      "tags": ["review", "security", "quality"]
+    },
+    {
+      "name": "version-finder",
+      "description": "Finds latest versions of packages across GitHub, npm, Packagist, PyPI",
+      "version": "1.0.0",
+      "source": "./plugins/version-finder",
+      "category": "utilities",
+      "tags": ["versions", "packages", "dependencies"]
+    },
+    {
+      "name": "explaining-code",
+      "description": "Explains code with diagrams and analogies",
+      "version": "1.0.0",
+      "source": "./plugins/explaining-code",
+      "category": "documentation",
+      "tags": ["explain", "diagrams", "learning"]
+    },
+    {
+      "name": "hetzner-advisor",
+      "description": "Recommends optimal Hetzner servers based on requirements",
+      "version": "1.0.0",
+      "source": "./plugins/hetzner-advisor",
+      "category": "infrastructure",
+      "tags": ["hetzner", "servers", "infrastructure"]
+    },
+    {
+      "name": "desktop-notify",
+      "description": "Desktop notifications for Claude Code events (Linux)",
+      "version": "1.0.0",
+      "source": "./plugins/desktop-notify",
+      "category": "utilities",
+      "tags": ["notifications", "linux", "desktop"]
+    }
+  ]
+}

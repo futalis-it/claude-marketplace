@@ -1,0 +1,11 @@
+{
+  "name": "desktop-notify",
+  "version": "1.0.0",
+  "description": "Desktop notifications for Claude Code events (Linux)",
+  "author": {
+    "name": "Toby",
+    "email": "toby@example.com"
+  },
+  "license": "MIT",
+  "keywords": ["notifications", "linux", "desktop", "notify-send", "hooks"]
+}
