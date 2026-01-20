@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Reviews code for quality, security, and maintainability",
   "author": {
-    "name": "Toby",
-    "email": "toby@example.com"
+    "name": "futalis GmbH",
+    "email": "it@futalis.de"
   },
-  "license": "MIT",
   "keywords": ["code-review", "security", "quality", "magento", "php"]
 }

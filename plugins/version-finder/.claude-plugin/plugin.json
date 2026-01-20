@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Finds latest versions of packages across GitHub, npm, Packagist, PyPI",
   "author": {
-    "name": "Toby",
-    "email": "toby@example.com"
+    "name": "futalis GmbH",
+    "email": "it@futalis.de"
   },
-  "license": "MIT",
   "keywords": ["versions", "packages", "dependencies", "npm", "packagist", "pypi", "github"]
 }

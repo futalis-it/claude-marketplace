@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Desktop notifications for Claude Code events (Linux)",
   "author": {
-    "name": "Toby",
-    "email": "toby@example.com"
+    "name": "futalis GmbH",
+    "email": "it@futalis.de"
   },
-  "license": "MIT",
   "keywords": ["notifications", "linux", "desktop", "notify-send", "hooks"]
 }

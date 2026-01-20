@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-docs",
+  "version": "1.0.0",
+  "description": "RAG-powered Claude Code documentation search",
+  "author": {
+    "name": "futalis GmbH",
+    "email": "it@futalis.de"
+  },
+  "keywords": ["documentation", "rag", "search", "claude-code"],
+  "mcpServers": {
+    "claude-code-docs-rag": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--script", "${CLAUDE_PLUGIN_ROOT}/server.py"]
+    }
+  }
+}

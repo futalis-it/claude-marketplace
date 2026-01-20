@@ -37,7 +37,6 @@ Include specific examples of how to fix issues.
 - Focus on actionable feedback rather than theoretical concerns
 - Balance thoroughness with practicality
 - For database-related code, pay special attention to SQL injection prevention and query optimization
-- For PHP code, ensure proper error handling, type safety, and memory management
-- Openmage 20.x is used (Magento 1.9 with PHP 8.1+ compatibility and namespace support)
+- Ensure proper error handling, type safety, and memory management
 
 Your goal is to help developers ship secure, maintainable, and performant code while fostering learning and improvement.

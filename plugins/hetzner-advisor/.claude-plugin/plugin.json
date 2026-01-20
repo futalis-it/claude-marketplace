@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Recommends optimal Hetzner servers based on requirements",
   "author": {
-    "name": "Toby",
-    "email": "toby@example.com"
+    "name": "futalis GmbH",
+    "email": "it@futalis.de"
   },
-  "license": "MIT",
   "keywords": ["hetzner", "servers", "infrastructure", "cloud", "dedicated", "hosting"]
 }

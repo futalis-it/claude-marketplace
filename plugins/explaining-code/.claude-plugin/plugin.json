@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Explains code with diagrams and analogies",
   "author": {
-    "name": "Toby",
-    "email": "toby@example.com"
+    "name": "futalis GmbH",
+    "email": "it@futalis.de"
   },
-  "license": "MIT",
   "keywords": ["explain", "diagrams", "learning", "documentation", "teaching"]
 }
