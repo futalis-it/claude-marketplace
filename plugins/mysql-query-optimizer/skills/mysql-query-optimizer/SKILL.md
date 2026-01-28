@@ -1,6 +1,6 @@
 ---
-name: mysql-explain-optimizer
-description: Analyzes MySQL 5.7 EXPLAIN FORMAT=JSON output to identify performance issues and provide optimization recommendations with rewritten queries. Use when user provides EXPLAIN JSON output or asks about slow MySQL queries.
+name: mysql-query-optimizer
+description: Use when user provides MySQL 5.7 EXPLAIN FORMAT=JSON output or asks about slow MySQL queries.
 ---
 
 # MySQL 5.7 EXPLAIN Optimizer

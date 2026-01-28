@@ -1,6 +1,6 @@
 ---
 name: claude-code-docs
-description: Search Claude Code documentation using semantic RAG. Use when users ask about Claude Code features, configuration, hooks, MCP servers, skills, commands, settings, memory, or troubleshooting. Also use when you need to look up how something works in Claude Code.
+description: Use when users ask about Claude Code features, configuration, hooks, MCP servers, skills, commands, settings, memory, or troubleshooting. Also use when you need to look up how something works in Claude Code.
 ---
 
 # Claude Code Documentation Search

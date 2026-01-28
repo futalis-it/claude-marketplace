@@ -1,6 +1,6 @@
 ---
 name: hetzner-advisor
-description: Recommends optimal Hetzner server offerings based on project requirements. Use when users ask about Hetzner servers, need help choosing a server, want to compare dedicated vs cloud, need infrastructure recommendations for their projects, or mention Hetzner in the context of hosting decisions.
+description: Use when users ask about Hetzner servers, need help choosing a server, want to compare dedicated vs cloud, need infrastructure recommendations for their projects, or mention Hetzner in the context of hosting decisions.
 ---
 
 # Hetzner Server Advisor
