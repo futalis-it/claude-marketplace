@@ -1,11 +1,13 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "futalis-marketplace",
   "owner": {
     "name": "futalis GmbH",
     "email": "it@futalis.de"
   },
-  "description": "Bundled plugins for Claude Code",
+  "metadata": {
+    "description": "Bundled plugins for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "code-reviewer",
@@ -13,11 +15,13 @@
       "version": "1.0.0",
       "source": "./plugins/code-reviewer",
       "category": "code-quality",
-      "tags": [
-        "review",
-        "security",
-        "quality"
-      ]
+      "tags": ["review", "security", "quality"],
+      "author": {
+        "name": "futalis GmbH",
+        "email": "it@futalis.de"
+      },
+      "keywords": ["code-review", "security", "quality", "magento", "php"],
+      "strict": false
     },
     {
       "name": "version-finder",
@@ -25,11 +29,13 @@
       "version": "1.0.0",
       "source": "./plugins/version-finder",
       "category": "utilities",
-      "tags": [
-        "versions",
-        "packages",
-        "dependencies"
-      ]
+      "tags": ["versions", "packages", "dependencies"],
+      "author": {
+        "name": "futalis GmbH",
+        "email": "it@futalis.de"
+      },
+      "keywords": ["versions", "packages", "dependencies", "npm", "packagist", "pypi", "github"],
+      "strict": false
     },
     {
       "name": "explaining-code",
@@ -37,11 +43,13 @@
       "version": "1.0.0",
       "source": "./plugins/explaining-code",
       "category": "documentation",
-      "tags": [
-        "explain",
-        "diagrams",
-        "learning"
-      ]
+      "tags": ["explain", "diagrams", "learning"],
+      "author": {
+        "name": "futalis GmbH",
+        "email": "it@futalis.de"
+      },
+      "keywords": ["explain", "diagrams", "learning", "documentation", "teaching"],
+      "strict": false
     },
     {
       "name": "hetzner-advisor",
@@ -49,11 +57,13 @@
       "version": "1.0.0",
       "source": "./plugins/hetzner-advisor",
       "category": "infrastructure",
-      "tags": [
-        "hetzner",
-        "servers",
-        "infrastructure"
-      ]
+      "tags": ["hetzner", "servers", "infrastructure"],
+      "author": {
+        "name": "futalis GmbH",
+        "email": "it@futalis.de"
+      },
+      "keywords": ["hetzner", "servers", "infrastructure", "cloud", "dedicated", "hosting"],
+      "strict": false
     },
     {
       "name": "desktop-notify",
@@ -61,24 +71,19 @@
       "version": "1.0.0",
       "source": "./plugins/desktop-notify",
       "category": "utilities",
-      "tags": [
-        "notifications",
-        "linux",
-        "desktop"
-      ]
+      "tags": ["notifications", "linux", "desktop"],
+      "author": {
+        "name": "futalis GmbH",
+        "email": "it@futalis.de"
+      },
+      "keywords": ["notifications", "linux", "desktop", "notify-send", "hooks"],
+      "strict": false
     },
     {
       "name": "claude-code-docs",
-      "description": "RAG-powered Claude Code documentation search",
-      "version": "1.0.0",
       "source": "./plugins/claude-code-docs",
       "category": "documentation",
-      "tags": [
-        "documentation",
-        "rag",
-        "search",
-        "claude-code"
-      ]
+      "tags": ["documentation", "rag", "search", "claude-code"]
     },
     {
       "name": "mysql-query-optimizer",
@@ -86,13 +91,13 @@
       "version": "1.0.0",
       "source": "./plugins/mysql-query-optimizer",
       "category": "database",
-      "tags": [
-        "mysql",
-        "sql",
-        "optimization",
-        "explain",
-        "performance"
-      ]
+      "tags": ["mysql", "sql", "optimization", "explain", "performance"],
+      "author": {
+        "name": "futalis GmbH",
+        "email": "it@futalis.de"
+      },
+      "keywords": ["mysql", "sql", "query", "optimization", "explain", "performance", "database"],
+      "strict": false
     }
   ]
 }
