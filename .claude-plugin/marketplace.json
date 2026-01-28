@@ -79,6 +79,20 @@
         "search",
         "claude-code"
       ]
+    },
+    {
+      "name": "mysql-query-optimizer",
+      "description": "Analyzes MySQL 5.7 EXPLAIN FORMAT=JSON output for query optimization",
+      "version": "1.0.0",
+      "source": "./plugins/mysql-query-optimizer",
+      "category": "database",
+      "tags": [
+        "mysql",
+        "sql",
+        "optimization",
+        "explain",
+        "performance"
+      ]
     }
   ]
 }
